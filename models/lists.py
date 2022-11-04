@@ -2,4 +2,5 @@
 
 class List:
     def __init__(self):
-        pass
+        self.list_id = 1 # необходимо генерировать какой-нибудь id
+        self.wishes = []
